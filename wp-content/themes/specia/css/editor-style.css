@@ -1,0 +1,349 @@
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+	margin: 0 0 20px;
+    font-weight: 600;
+	color: #1c314c;
+}
+
+h1, .h1 {
+    font-size: 36px;
+    line-height: 42px;
+}
+h2, .h2 {
+    font-size: 32px;
+    line-height: 38px;
+}
+h3, .h3 {
+    font-size: 28px;
+    line-height: 34px;
+}
+h4, .h4 {
+    font-size: 24px;
+    line-height: 28px;
+}
+h5, .h5 {
+    font-size: 20px;
+    line-height: 24px;
+}
+h6, .h6 {
+    font-size: 16px;
+    line-height: 20px;
+}
+p {
+    color: #747474;
+    font-size: 14px;
+    line-height: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #747474;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    -webkit-transition: all 300ms ease-out 0s;
+       -moz-transition: all 300ms ease-out 0s;
+         -o-transition: all 300ms ease-out 0s;
+            transition: all 300ms ease-out 0s;
+}
+body a:focus, body a:hover {
+    outline: none;
+    text-decoration: none;
+	color: #e84c3d;
+}
+.bypostauthor{}
+
+
+/*Image Alignments and captions*/
+img.alignnone{ display: block; margin: 0 auto; height: auto; max-width: 100%; }
+#attachment_907 { width: 100% !important; }
+.alignnone img{ display: block; height: auto; }
+img.alignleft, .wp-caption.alignleft{ margin-right: 30px; }
+img.alignright, .wp-caption.alignright{ margin-left: 30px; float: right;}
+img.wp-caption .alignnone { display: block; margin: 0 auto; height: auto; width: 100%; }
+a img.alignright { float: right; }
+a img.alignnone { margin: 5px 20px 20px 0; }
+a img.alignleft { float: left; }
+a img.aligncenter { display: block; margin-left: auto; margin-right: auto;}
+.aligncenter { margin-top: .5em; margin-bottom: .5em; }  
+.alignleft { float: left; margin: .5em 20px .5em 0; }
+.alignright { float: right; margin: .5em 0 .5em 20px; }
+.wp-caption .wp-caption-text, .gallery-caption, .entry-caption { 
+	clear: left;
+    font-style: italic;
+    line-height: 1.5em;
+    margin: 0.75em 0;
+    text-align: center;
+}
+.wp-caption.alignright { margin: 5px 0 20px 20px;}
+.wp-caption p.wp-caption-text { font-family: 'Open Sans'; font-size: 14px; margin: 12px 0; text-align: center; font-weight: 400; font-style: italic; line-height: 1.5em; }
+.wp-caption.alignleft { margin: 5px 20px 20px 0;}
+.wp-caption {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f8f8f8;
+    border-color: #eee;
+    border-image: initial;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    text-align: center;
+}
+.wp-caption > img {
+    max-width: 100%;
+	height: auto;
+}
+
+/* Gallery Css Here*/
+.gallery-icon {
+    margin-bottom: -11px;
+	overflow: hidden;
+}
+.gallery-icon img{
+	-webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.gallery-icon img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.gallery-item { 
+	display: inline-block;
+}
+.gallery-item .gallery-caption {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    word-wrap: break-word;
+    background: #1c314c;
+    padding: 8px 3px;
+}
+.gallery-item:hover figcaption {
+	background: #e84c3d;
+	-webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.gallery-columns-1 .gallery-item {
+    float: none;
+    text-align: center;
+    margin: 10px 0 20px;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    width: 50%;
+	float: none;
+    text-align: center;
+    margin: 10px 0 20px;
+	padding: 0 10px;
+}
+
+.gallery-columns-3 .gallery-item {
+    width: 33.33%;
+	float: none;
+    text-align: center;
+    margin: 10px 0 20px;
+	padding: 0 10px;
+}
+
+.gallery-columns-4 .gallery-item {
+    width: 25%;
+	float: none;
+    text-align: center;
+    margin: 10px 0 20px;
+	padding: 0 10px;
+}
+
+.gallery-columns-5 .gallery-item {
+    width: 20%;
+	float: none;
+    text-align: center;
+    margin: 10px 0 20px;
+	padding: 0 10px;
+}
+
+.gallery-columns-6 .gallery-item {
+    width: 13.6%;
+}
+
+.gallery-columns-7 .gallery-item {
+    width: 12.25%;
+    margin: 10px 1% 10px;
+}
+
+.gallery-columns-8 .gallery-item {
+    width: 10.5%;
+    margin: 10px 1% 10px;
+}
+
+.gallery-columns-9 .gallery-item {
+    width: 9.11%;
+    margin: 10px 1% 10px;
+}
+
+.gallery dl a {
+    display: block;
+}
+
+.gallery dl a img {
+    height: auto;
+    margin: 0 auto;
+}
+
+.gallery .gallery-caption {
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 10px 0 0;
+}
+
+.gallery br+br {
+    display: none;
+}
+
+/* Jetpack Tiled Gallery CSS*/
+.tiled-gallery-caption {
+    background: #1c314c !important;
+	font-family: 'Open Sans', sans-serif !important;
+    color: #fff !important;
+    font-weight: 400;
+	font-size: 14px;
+    display: block;
+    word-wrap: break-word;
+    padding: 8px 3px;
+	text-align: center;
+}
+
+
+
+/* Ul and ol lists*/
+ul { 
+	margin: 0 0 20px; 
+	padding: 0 0px 0px 20px; 
+}
+
+ol { 
+	margin: 0 0 20px; 
+	padding: 0 0px 0px 20px; 
+}
+
+ul li, ol li { 
+	margin: 0; 
+	padding: 6px 0; 
+	vertical-align: top; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul li, ul li a, ol li, ol li a  { 
+	border: 0 none; 
+	color: #747474; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+li > ul, li > ol, blockquote > ul, blockquote > ol {
+    margin-left: 1.3333em;
+}
+/* Blockquote*/
+blockquote { 
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    background: #f7f9fc;
+	border-left: 5px solid #e84c3d !important;
+}
+blockquote, blockquote p { 
+    font-size: 15px; 
+    font-style: italic; 
+    font-weight: 500; 
+    line-height: 21px; 
+    letter-spacing: 1px; 
+	color: #747474;
+}
+blockquote cite, blockquote small { font-size: 15px; display: block; line-height: 20px; padding-top: 15px; color: #1c314c; }
+blockquote em, blockquote i, blockquote cite { font-style: normal; }
+blockquote strong, blockquote b { font-weight: 600; }
+/*Address*/
+address { font-style: italic; margin: 0 0 20px; font-weight: 600; letter-spacing: 0.5px; line-height: 27px; color: #1c314c; }
+/*Table*/
+table { 
+	border: 1px solid #e9e9e9;
+	background-color: #fcfcfc; 
+	border-spacing: 0; 
+	letter-spacing: 0.5px; 
+	margin: 0 0 20px; 
+	text-align: left; 
+	table-layout: fixed; 
+	width: 100%; 
+}
+table th {     
+    padding: 10px 10px;
+    color: #fff; 
+	border: 1px solid #e84c3d;
+    background: #e84c3d;
+}
+table td { border: 1px solid #e8e7e7; padding: 8px 10px;  }
+
+/*Definition Lists*/
+dl { 
+    margin-bottom: 25px; 
+    margin-top: 0; 
+}
+dl dt { 
+    font-weight: 700; 
+    margin-bottom: 10px; 
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+}
+dl dd { 
+    margin-bottom: 20px; 
+    margin-left: 15px; 
+}
+
+
+abbr, tla, acronym { text-decoration: underline; cursor: help; }
+acronym { border-bottom: 0 none; }
+big { font-size: large; font-weight: 600; }
+s, strike, del { text-decoration: line-through; }
+em, cite, q { 
+	font-style: italic; 
+	font-weight: 600;
+}
+ins { text-decoration: none; padding: 0 3px; color: #1c314c; }
+code, kbd, tt, var, samp, pre {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+	background: #333;
+	color: #ffffff;
+	padding: 2px 5px;
+}
+mark {
+    color: #000;
+    background: #ff0;
+	padding: 2px 5px;
+}
+label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}

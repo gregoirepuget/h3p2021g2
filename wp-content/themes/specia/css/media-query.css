@@ -1,0 +1,184 @@
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+    .header-top-info-1 .social, .header-top-info-1 .info {
+        float: none !important;
+        text-align: center;
+    }
+   
+    .navbar > .container .navbar-brand {
+        margin: 0 auto;
+    }
+	.breadcrumb-position {
+		text-align: left;
+	}
+    .page-breadcrumb {
+		text-align: right;
+    }
+	ul.payment-icon {
+		text-align: left;
+	}
+	
+    /*---------------------------------------
+    Home Slider
+    -----------------------------------------*/
+   .slider-version-one .caption {
+    margin: auto;
+    width: 70%;
+    }
+    .slider-version-one .caption h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .slider-version-one .caption p {
+        font-weight: normal;
+        font-size: 13px;
+		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    }
+    .slider-version-one .item{
+        min-height: 250px;
+    }
+    .slider-version-one .item img{
+        min-height: 250px;
+         background-size: cover;
+    }
+    .slider-version .owl-controls .owl-dots .owl-dot{
+        display: none;
+    }
+    .specia-btn-1{
+    background: transparent;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 12px;
+    border-radius: 30px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+    }
+    .specia-btn-1:hover{
+         -webkit-transition: all 200ms ease-out;
+           -moz-transition: all 200ms ease-out;
+             -o-transition: all 200ms ease-out;
+                transition: all 200ms ease-out;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-top-info-1 .social, .header-top-info-1 .info {
+        float: none;
+        text-align: center;
+    }
+	.breadcrumb-position {
+		text-align: left;
+	}
+    .page-breadcrumb {
+		text-align: right;
+    }
+	ul.payment-icon {
+		text-align: left;
+	}
+
+    /*---------------------------------------
+    Home Slider
+    -----------------------------------------*/
+   .slider-version-one .caption {
+    margin: auto;
+    width: 70%;
+    }
+    .slider-version-one .caption h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .slider-version-one .caption p {
+        font-weight: normal;
+        font-size: 13px;
+		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    }
+    .slider-version-one .item{
+        min-height: 250px;
+    }
+    .slider-version-one .item img{
+        min-height: 250px;
+        background-size: 
+    }
+    .slider-version .owl-controls .owl-dots .owl-dot{
+        display: none;
+    }
+    .specia-btn-1{
+        background: transparent;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 6px 12px;
+        border-radius: 30px;
+        -webkit-transition: all 200ms ease-out;
+           -moz-transition: all 200ms ease-out;
+             -o-transition: all 200ms ease-out;
+                transition: all 200ms ease-out;
+    }
+    .specia-btn-1:hover{
+         -webkit-transition: all 200ms ease-out;
+           -moz-transition: all 200ms ease-out;
+             -o-transition: all 200ms ease-out;
+                transition: all 200ms ease-out;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    /*---------------------------------------
+    Home Slider
+    -----------------------------------------*/
+   .slider-version-one .caption {
+    margin: auto;
+    width: 70%;
+    }
+    .slider-version-one .caption h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 30px;
+		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .slider-version-one .caption p {
+        font-weight: normal;
+        font-size: 13px;
+		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    }
+    .slider-version-one .item{
+        min-height: 250px;
+    }
+    .slider-version-one .item img{
+        min-height: 250px;
+        background-size: 
+    }
+    
+    .specia-btn-1{
+    background: transparent;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 18px;
+    border-radius: 30px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+    }
+    .specia-btn-1:hover {
+         -webkit-transition: all 200ms ease-out;
+           -moz-transition: all 200ms ease-out;
+             -o-transition: all 200ms ease-out;
+                transition: all 200ms ease-out;
+    }
+	ul.payment-icon {
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+}

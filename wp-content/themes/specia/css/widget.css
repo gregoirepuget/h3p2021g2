@@ -1,0 +1,539 @@
+/* Footer Sidebar CSS*/
+.footer-sidebar .widget .widget-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px; 
+    line-height: 24px;
+    font-style: normal;
+	margin: 0;
+}
+
+
+.footer-sidebar .widget { margin: 0 0 60px; padding: 0px; display: block; }
+.footer-sidebar .widget:last-child { margin: 0 0 40px; }
+.footer-sidebar .widget .widget-title {
+    font-weight: 500;
+    display: block;
+    margin: 0 0 30px;
+    border-bottom: 1px solid #e7eaf1;
+    color: #ffffff;
+    padding: 0 0 18px;
+}
+.footer-sidebar .widget .title-border { 
+    width: 30px;
+    margin-bottom: 15px;
+    margin-top: -32px;
+}
+
+.footer-sidebar .widget ul { 
+    margin: 0; padding: 0; 
+    list-style: outside none none; 
+    padding: 0; 
+}
+.footer-sidebar .widget li {
+    padding: 6px 0;
+    color: #ffffff; 
+}
+.footer-sidebar .widget ul li a { 
+    color: #ffffff;
+    font-weight: lighter; 
+}
+.footer-sidebar .widget ul li::before { 
+    content: "\f054";
+    font-family: "Fontawesome";
+    font-size: 9px;
+    margin-right: 5px;
+}
+
+.widget ul.product_list_widget li::before { 
+    content:none;
+}
+.footer-sidebar .widget ul li a:hover, .widget ul li a:active { 
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.footer-sidebar .widget li ul.children { 
+    margin-left: 10px; 
+    padding-bottom: 0; 
+    margin-top:12px; 
+}
+.footer-sidebar .widget ul li ul.children { 
+    padding-left: 20px; 
+}
+.footer-sidebar .widget li ul.sub-menu { margin-top:12px; padding-right:0; padding-bottom:0; }
+.footer-sidebar .widget ul.children, .widget ul.sub-menu { margin-top:12px; margin-left:20px; }
+.footer-sidebar .widget ul.children, .sidebar .widget ul.sub-menu { margin-top:12px; margin-left:0px; }
+.footer-sidebar .widget ul.children li:first-child, .widget ul.sub-menu li:first-child { padding-top:12px; }
+.footer-sidebar .widget li:first-child { padding-top: 9px; }
+.footer-sidebar .widget li:last-child { padding-bottom: 0px;  border-bottom: 0px !important; } 
+
+/*.footer-sidebar .widget input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: inherit;
+    padding: 6px 12px;
+    line-height: 25px;
+}*/
+.footer-sidebar .widget input[type="submit"] {
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: transparent;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.footer-sidebar .widget input[type="submit"]:hover{
+    color: #ffffff;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.footer-sidebar .widget  input[type="submit"]:hover, button:hover, input[type="submit"]:focus, button:focus {
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+/*Table Widget*/
+.footer-sidebar .widget .calendar_wrap { background-color: #ffffff; border: 1px solid #eae7e4; padding: 5px; border-radius: 3px; }
+.footer-sidebar .widget table { 
+    border-collapse: inherit;
+    border-spacing: 5px;
+    border: 0 none;
+    padding: 0px; 
+    margin: 0; 
+    line-height: 40px; 
+    text-align: center; 
+    table-layout: fixed; 
+    width: 100%; 
+}
+.footer-sidebar .widget table caption { 
+    text-align: center; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 25px; 
+    padding: 10px; 
+    border-radius: 3px; 
+}
+.footer-sidebar .widget table th { 
+    background:transparent; 
+    color:#747474; 
+    border: 0 none; 
+    font-weight: 700;  
+}
+.footer-sidebar .widget table td { background: #f2f2f2; border-radius: 3px; }
+.footer-sidebar .widget table td, .widget table th { padding: 0px; line-height: 27px; text-align: center; } 
+.footer-sidebar .widget table tbody a { display: block; border-radius: 3px; }
+
+.widget table #next a, .widget table #prev a { font-weight: 600; }
+/*Recent Comments Widget*/
+.footer-sidebar .widget .comment-author-link a { font-weight: 600; }
+/*Tags Widget*/
+.footer-sidebar .tagcloud { margin: 0; padding: 0; display: block; }
+.footer-sidebar .tagcloud a {  
+    display: inline-block;
+    background: transparent;
+    padding: 12px;
+    position: relative;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px !important;
+    line-height: 10px;
+    font-weight: lighter;
+    margin: 0 10px 14px 0;
+    text-decoration: none; 
+    border-radius: 30px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;                 
+}
+.footer-sidebar .tagcloud a:hover, .tagcloud a:focus {  
+    color: #ffffff;       
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;  
+}       
+
+/*Rss Widget*/
+.footer-sidebar .widget-title .rsswidget { color: #36404a; }
+/*Custom Post Widget*/
+.footer-sidebar .widget .post { border-bottom: 1px solid #eae7e4; margin: 0 0 20px; padding: 0 0 20px; }
+.footer-sidebar .widget .post:last-child { margin: 0px; padding: 0; border-bottom: 0 none; }
+.footer-sidebar .widget .post .entry-header { margin: 0 0 5px; }
+.footer-sidebar .widget .post .entry-header .entry-title { display: block; margin: 0; padding: 0; font-size: 15px; font-weight: 500; }
+.footer-sidebar .widget .post .entry-date { color: #787878; font-size: 13px; line-height: 20px; margin-right: 8px; font-weight: 500; display: block; }
+.footer-sidebar .widget .post-thumbnail { margin: 0px 20px 0px 0; overflow: hidden; float: left; display: block; width: 60px; border-radius: 2px; }
+.footer-sidebar .widget .post-thumbnail img { display: block; height: auto; max-width: 100%; transition: all 0.3s ease-in-out 0s; }
+                             
+
+
+
+
+
+
+/* Sidebar CSS*/
+.sidebar { margin: 0px; padding: 0px; }
+.sidebar aside { 
+    padding: 15px 20px; 
+    background-color: #f7f9fc;
+}
+.sidebar .widget { 
+    margin: 0 0 40px;
+    display: block; 
+    border: solid 1px #f6f6f6;
+}
+.sidebar .widget:last-child { 
+    margin: 0px;
+}
+.sidebar .widget .widget-title {
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px; 
+    line-height: 24px;
+    font-weight: 500;
+    display: block;
+    font-style: normal;
+    padding: 0 0 18px;
+	margin: 0 0 10px;
+    border-bottom: 1px solid #e7eaf1;
+}
+.sidebar .widget .title-border { 
+    width: 30px;
+    margin-bottom: 15px;
+    margin-top: -12px;
+}
+.sidebar .widget ul { 
+    margin: 0; padding: 0; 
+    list-style: outside none none; 
+    padding: 0; 
+}
+.sidebar .widget li {
+    color: #505050; 
+	padding: 13px 0;
+	border-bottom: 1px solid #e7eaf1;
+}
+.sidebar .widget ul li a { 
+    color: #505050;
+    font-weight: normal; 
+}
+.sidebar .widget ul li a::after { 
+    content: "\f054";
+    font-family: "Fontawesome";
+    font-size: 9px;
+    margin-right: 5px;
+    float: right;
+}
+.sidebar .widget ul li a:hover, .widget ul li a:active { 
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.sidebar .widget li ul.children { 
+    margin-left: 10px; 
+    padding-bottom: 0; 
+    margin-top:12px; 
+}
+.footer-sidebar .widget ul li ul.children { 
+    padding-left: 20px; 
+}
+.sidebar .widget li ul.sub-menu { margin-top:0; margin-left: 14px; padding-right:0; padding-bottom:0; }
+.sidebar .widget ul.children, .widget ul.sub-menu { margin-top:12px; margin-left:20px; }
+.sidebar .widget ul.children, .sidebar .widget ul.sub-menu { margin-top:12px; margin-left:0px; }
+.sidebar .widget ul.children li:first-child, .widget ul.sub-menu li:first-child { padding-top:12px; }
+.sidebar .widget li:first-child { padding-top: 9px; }
+.sidebar .widget li:last-child { /*padding-bottom: 0px; */ border-bottom: 0px !important; } 
+
+.sidebar .widget input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: inherit;
+    padding: 6px 12px;
+    line-height: 25px;
+}
+.sidebar .widget input[type="submit"] {
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: transparent;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.sidebar .widget input[type="submit"]:hover {
+    color: #ffffff;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.sidebar .widget  input[type="submit"]:hover, button:hover, input[type="submit"]:focus, button:focus {
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+/*Table Widget*/
+.sidebar .widget .calendar_wrap { background-color: #ffffff; border: 1px solid #eae7e4; padding: 5px; border-radius: 3px; }
+.sidebar .widget table { 
+    border-collapse: inherit;
+    border-spacing: 5px;
+    border: 0 none;
+    padding: 0px; 
+    margin: 0; 
+    line-height: 40px; 
+    text-align: center; 
+    table-layout: fixed; 
+    width: 100%; 
+}
+.sidebar .widget table caption { 
+    text-align: center;
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 25px; 
+    padding: 10px; 
+    border-radius: 3px; 
+}
+.sidebar .widget table th { 
+    background:transparent; 
+    color:#747474; 
+    border: 0 none; 
+    font-weight: 700;  
+}
+.sidebar .widget table td { 
+    border: solid 1px #f2f2f2;
+    border-radius: 0;
+}
+.sidebar .widget table td, .widget table th { padding: 0px; line-height: 40px; text-align: center; } 
+.sidebar .widget table tbody a { display: block; border-radius: 3px; }
+.sidebar .widget table tbody a:hover, .widget table tbody a:focus { color: #e84c3d; }
+.widget table #next a, .widget table #prev a { font-weight: 600; }
+/*Recent Comments Widget*/
+.sidebar .widget .comment-author-link a { font-weight: 600; }
+/*Tags Widget*/
+.sidebar .tagcloud { margin: 0; padding: 0; display: block; }
+.sidebar .tagcloud a {  
+    display: inline-block;
+    background: transparent;
+    padding: 12px;
+    position: relative;
+    border: 1px solid #505050;
+    color: #505050;
+    font-size: 14px !important;
+    line-height: 10px;
+    font-weight: lighter;
+    margin: 0 10px 14px 0;
+    text-decoration: none; 
+    border-radius: 30px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;                 
+}
+.sidebar .tagcloud a:hover, .tagcloud a:focus {  
+    color: #ffffff;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;  
+}       
+
+/*Rss Widget*/
+.sidebar .widget-title .rsswidget { color: #36404a; }
+/*Custom Post Widget*/
+.sidebar .widget .post { border-bottom: 1px solid #eae7e4; margin: 0 0 20px; padding: 0 0 20px; }
+.sidebar .widget .post:last-child { margin: 0px; padding: 0; border-bottom: 0 none; }
+.sidebar .widget .post .entry-header { margin: 0 0 5px; }
+.sidebar .widget .post .entry-header .entry-title { display: block; margin: 0; padding: 0; font-size: 15px; font-weight: 500; }
+.sidebar .widget .post .entry-date { color: #787878; font-size: 13px; line-height: 20px; margin-right: 8px; font-weight: 500; display: block; }
+.sidebar .widget .post-thumbnail { margin: 0px 20px 0px 0; overflow: hidden; float: left; display: block; width: 60px; border-radius: 2px; }
+.sidebar .widget .post-thumbnail img { display: block; height: auto; max-width: 100%; transition: all 0.3s ease-in-out 0s; }
+
+
+
+/* WooCommerce Sidebar CSS*/
+.woo-sidebar { margin: 0px; padding: 0px; }
+.woo-sidebar aside { 
+    padding: 15px 20px; 
+    background-color: #f7f9fc;
+}
+.woo-sidebar .widget { 
+    margin: 0 0 40px;
+    display: block; 
+    border: solid 1px #f6f6f6;
+}
+.woo-sidebar .widget:last-child { 
+    margin: 0px;
+}
+.woo-sidebar .widget .widget-title {
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px; 
+    line-height: 24px;
+    font-weight: 500;
+    display: block;
+    font-style: normal;
+    padding: 0 0 18px;
+	margin: 0 0 10px;
+    border-bottom: 1px solid #e7eaf1;
+}
+.woo-sidebar .widget .title-border { 
+    width: 30px;
+    margin-bottom: 15px;
+    margin-top: -12px;
+}
+.woo-sidebar .widget ul { 
+    margin: 0; padding: 0; 
+    list-style: outside none none; 
+    padding: 0; 
+}
+.woo-sidebar .widget li {
+    color: #505050; 
+	border-bottom: 1px solid #e7eaf1;
+    padding:13px 0;
+}
+.woo-sidebar .widget ul li a { 
+    color: #505050;
+    font-weight: normal; 
+}
+.woo-sidebar li.mini_cart_item a {
+	padding: 0 !important;
+}
+
+.woo-sidebar .widget ul li a:hover, .widget ul li a:active { 
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.woo-sidebar .widget li ul.children { 
+    margin-left: 10px; 
+    padding-bottom: 0; 
+    margin-top:12px; 
+}
+.woo-footer-sidebar .widget ul li ul.children { 
+    padding-left: 20px; 
+}
+.woo-sidebar .widget li ul.sub-menu { margin-top:0; margin-left: 14px; padding-right:0; padding-bottom:0; }
+.woo-sidebar .widget ul.children, .widget ul.sub-menu { margin-top:12px; margin-left:20px; }
+.woo-sidebar .widget ul.children, .sidebar .widget ul.sub-menu { margin-top:12px; margin-left:0px; }
+.woo-sidebar .widget ul.children li:first-child, .widget ul.sub-menu li:first-child { padding-top:12px; }
+.woo-sidebar .widget li:first-child { padding-top: 9px; }
+.woo-sidebar .widget li:last-child { /*padding-bottom: 0px; */ border-bottom: 0px !important; } 
+
+.woo-sidebar .widget input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: inherit;
+    padding: 6px 12px;
+    line-height: 25px;
+}
+.woo-sidebar .widget input[type="submit"] {
+    padding: 12px 24px;
+	margin-top: 10px;
+    border-radius: 30px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.woo-sidebar .widget input[type="submit"]:hover {
+    color: #ffffff;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.woo-sidebar .widget  input[type="submit"]:hover, button:hover, input[type="submit"]:focus, button:focus {
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+/*Table Widget*/
+.woo-sidebar .widget .calendar_wrap { background-color: #ffffff; border: 1px solid #eae7e4; padding: 5px; border-radius: 3px; }
+.woo-sidebar .widget table { 
+    border-collapse: inherit;
+    border-spacing: 5px;
+    border: 0 none;
+    padding: 0px; 
+    margin: 0; 
+    line-height: 40px; 
+    text-align: center; 
+    table-layout: fixed; 
+    width: 100%; 
+}
+.woo-sidebar .widget table caption { 
+    text-align: center;
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 25px; 
+    padding: 10px; 
+    border-radius: 3px; 
+}
+.woo-sidebar .widget table th { 
+    background:transparent; 
+    color:#747474; 
+    border: 0 none; 
+    font-weight: 700;  
+}
+.woo-sidebar .widget table td { 
+    border: solid 1px #f2f2f2;
+    border-radius: 0;
+}
+.woo-sidebar .widget table td, .widget table th { padding: 0px; line-height: 40px; text-align: center; } 
+.woo-sidebar .widget table tbody a { color: #e84c3d; display: block; border-radius: 3px; }
+.woo-sidebar .widget table tbody a:hover, .widget table tbody a:focus { color: #e84c3d; }
+.woo-widget table #next a, .widget table #prev a { font-weight: 600; }
+/*Recent Comments Widget*/
+.woo-sidebar .widget .comment-author-link a { font-weight: 600; }
+/*Tags Widget*/
+.woo-sidebar .tagcloud { margin: 0; padding: 0; display: block; }
+.woo-sidebar .tagcloud a {  
+    display: inline-block;
+    background: transparent;
+    padding: 12px;
+    position: relative;
+    border: 1px solid #505050;
+    color: #505050;
+    font-size: 14px !important;
+    line-height: 10px;
+    font-weight: lighter;
+    margin: 0 10px 14px 0;
+    text-decoration: none; 
+    border-radius: 30px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;                 
+}
+.woo-sidebar .tagcloud a:hover, .tagcloud a:focus {  
+    border: 1px solid #e84c3d;
+    color: #ffffff;  
+    background: #e84c3d;       
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;  
+}       
+
+/*Rss Widget*/
+.woo-sidebar .widget-title .rsswidget { color: #36404a; }
+/*Custom Post Widget*/
+.woo-sidebar .widget .post { border-bottom: 1px solid #eae7e4; margin: 0 0 20px; padding: 0 0 20px; }
+.woo-sidebar .widget .post:last-child { margin: 0px; padding: 0; border-bottom: 0 none; }
+.woo-sidebar .widget .post .entry-header { margin: 0 0 5px; }
+.woo-sidebar .widget .post .entry-header .entry-title { display: block; margin: 0; padding: 0; font-size: 15px; font-weight: 500; }
+.woo-sidebar .widget .post .entry-date { color: #787878; font-size: 13px; line-height: 20px; margin-right: 8px; font-weight: 500; display: block; }
+.woo-sidebar .widget .post-thumbnail { margin: 0px 20px 0px 0; overflow: hidden; float: left; display: block; width: 60px; border-radius: 2px; }
+.woo-sidebar .widget .post-thumbnail img { display: block; height: auto; max-width: 100%; transition: all 0.3s ease-in-out 0s; }
+ul.product_list_widget li a img, .footer-sidebar ul.product_list_widget li a img {
+    width: 32px;
+	float: right;
+}
+
+

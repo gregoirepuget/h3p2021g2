@@ -1,0 +1,379 @@
+/*
+Theme Name: Nifty Lite
+Theme URI: https://speciatheme.com/nifty-free/
+Author: Specia
+Author URI: https://speciatheme.com/
+Description: Nifty Lite is a trending WordPress theme with lots of powerful features, instantly giving a professional look to your online presence. It fits for business, portfolio, food & restaurant, gym & fitness, spa salon, medical practitioner & hospitals, landing pages, product pages, corporate business, digital agency, product showcase, financial advisor, accountant, law firm, wealth advisor, photography, personal, and any eCommerce stores. Nifty premium version provides you more than 10 different designs and supports popular plugins WPML, Polylang, WooCommerce, Contact Form 7, Revolution Slider, Elementor, Visual Composer, WP-Forms, Ninja Forms, Jetpack, WP-Featherlight, Give (WordPress Donation Plugin), Gravity Forms, Yoast SEO and many more. View the demo of Nifty Premium https://demo.speciatheme.com/pro/?theme=nifty
+Template: specia
+Version: 1.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nifty-lite
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, editor-style, blog, photography, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+/*---------------------------------------
+    Header Social Icons
+-----------------------------------------*/
+.header-top-info-8 .social {
+    padding: 0px 0;
+    margin: 0;
+    line-height: 20px;
+    padding: 5px 0 4px;
+}
+.header-top-info-8 .social li {
+    font-family: 'Awesomefont';
+    margin-right: 4px;
+        display: inline-block;
+}
+.header-top-info-8 .social li {
+    position: relative;
+}
+.text-center .social li {
+    margin: 0 2px;
+}
+.social li a {
+    display: table;
+    position: relative;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+	 overflow: hidden;
+}
+.header-top-info-8 .social li a i {
+    background: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #283645;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.header-top-info-8 .social li a i:hover {
+	color: #ffffff;
+    -webkit-animation: socialFxD .3s forwards;
+            animation: socialFxD .3s forwards
+}
+@-webkit-keyframes socialFxD {
+    49% {
+        -webkit-transform: translateX(100%);
+                transform: translateX(100%)
+    }
+    50% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%)
+    }
+    51% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    }
+}
+/*---------------------------------------
+    Nifty Navigation
+-----------------------------------------*/
+.nifty-logo {
+    padding: 0 18% !important;
+}
+.navbar-brand {
+	color: #ffffff;
+}
+.site-title a, .site-description {
+    color: #ffffff;
+}
+.nav-nifty {
+    padding: 0 !important;
+}
+
+.nav-nifty {
+    background: #1c314c !important;
+}
+.nav-nifty .navbar-nav>.active > a, .nav-nifty .navbar-nav>.active > a:hover, .dropdown-menu > .active > a {
+    background: transparent !important;
+}
+
+.nav-nifty .navbar-nav > .active > a, .nav-nifty .navbar-nav > .active > a:hover {
+    border-radius: 0 !important;
+    padding: 12px 17px !important;
+    text-transform: uppercase !important;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus {
+	color: #333 !important;
+}
+.dropdown-menu > .active > a:hover {
+	color: #ffffff !important;
+}
+
+.nav-nifty .navbar-nav > li > a {
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.nifty_button {
+    padding: 10px 0;
+}
+a.nifty-button {
+    margin-left: 20px !important;
+    padding: 17px 12px !important;
+    font-weight: 600 !important;
+    color: #ffffff;
+}
+
+a.nifty-button, a.nifty-button:hover, .navbar-default .navbar-nav > li > a.nifty-button:hover {
+	color: #ffffff !important;
+}
+.nifty-button-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.header_nifty_dark {
+    width: 100%;
+    z-index: 9;
+	padding: 32px 0 32px 0;
+}
+.header_nifty_dark .info_details .icon {
+	width: 28px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+.header_nifty_dark .info_details .icon i {
+    font-size: 23px;
+    line-height: 33px;
+}
+.header_nifty_dark .info_details a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.header_nifty_light {
+	background: #fff;
+    width: 100%;
+    z-index: 9;
+	padding: 32px 0 32px 0;
+}
+.header_nifty_light .info_details .icon {
+	width: 28px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+.header_nifty_light .info_details .icon i {
+    font-size: 23px;
+    line-height: 33px;
+}
+.header_nifty_light .info_details a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.nifty-border {
+    border-top: solid 1px rgba(255,255,255,0.2);
+}
+.header_nifty_dark {
+    background: #1c314c;
+}
+
+.nav-nifty {
+    padding: 0 !important;
+}
+
+.nav-nifty {
+    background: #1c314c !important;
+}
+
+.nav-nifty .navbar-nav>.active > a, .nav-nifty .navbar-nav>.active > a:hover, .dropdown-menu > .active > a {
+    background: transparent !important;
+}
+
+.nav-nifty .navbar-nav > .active > a, .nav-nifty .navbar-nav > .active > a:hover {
+    border-radius: 0 !important;
+    padding: 12px 17px !important;
+    text-transform: uppercase !important;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus {
+	color: #333 !important;
+}
+.dropdown-menu > .active > a:hover {
+	color: #ffffff !important;
+}
+
+.nav-nifty .navbar-nav > li > a {
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.nifty_button {
+    padding: 10px 0;
+}
+a.nifty-button {
+    margin-left: 20px !important;
+    padding: 17px 12px !important;
+    font-weight: 600 !important;
+    color: #ffffff;
+}
+
+a.nifty-button, a.nifty-button:hover, .navbar-default .navbar-nav > li > a.nifty-button:hover {
+	color: #ffffff !important;
+}
+.nifty-button-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+/*---------------------------------------
+    Nifty Cart
+-----------------------------------------*/
+.nifty-cart {
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 14px;
+}
+.cart-icon {
+    position: relative;
+}
+.nifty-cart a.cart-icon i {
+    font-size: 20px;
+    color: #ffffff;
+}
+.nifty-cart a.cart-icon span {
+    position: relative;
+    font-size: 11px;
+    bottom: 31px;
+    left: 11px;
+    padding: 0px 4px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.nifty-button-container ul li {
+    display: -webkit-inline-box;
+}
+.navbar-collapse.in {
+    overflow-y: initial !important;
+}
+.navbar-collapse {
+    border-top: 0 !important;
+}
+/*---------------------------------------
+    Nifty Media Query CSS
+-----------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 768px) and (orientation : portrait) {
+	.nifty-logo .custom-logo {
+		margin: 0 auto !important;
+		padding-bottom: 8px;
+		margin-bottom: 23px !important;
+	}
+	.nifty-logo .navbar-brand {
+		float: none !important;
+	}
+	.header_nifty_dark {
+		/* background: #ffffff !important; */
+	}
+	.breadcrumb.nifty {
+		margin-top: 0;
+	}
+	.contact_email, .contact_phone {
+		display: none;
+	}
+	.nav-nifty.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff !important;
+	}
+	.nav-nifty .navbar-header .navbar-toggle {
+		position: relative;
+		background-image: none;
+		float: left;
+		left: 45%;
+	}
+	.navbar-default .navbar-toggle {
+		border: none;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background: transparent;
+	}
+	.nav-nifty .dropdown-menu > li > a {
+		color: #ffffff !important;
+	}
+	.nifty-button-container ul {
+		text-align: left;
+	}
+	.call-to-action h2 {
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 800;
+		margin: 0 0 13px;
+	}
+	.call-to-action .call-btn-1 {
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) and (orientation : landscape) { 
+	.nifty-logo .custom-logo {
+		margin: 0 auto !important;
+		padding-bottom: 8px;
+		margin-bottom: 23px !important;
+	}
+	.nifty-logo .navbar-brand {
+		float: none !important;
+	}
+	.header_nifty_dark {
+		/* background: #ffffff !important; */
+	}
+	.breadcrumb.nifty {
+		margin-top: 0;
+	}
+	.contact_email, .contact_phone {
+		display: none;
+	}
+	.nav-nifty.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff !important;
+	}
+	.nav-nifty .navbar-header .navbar-toggle {
+		position: relative;
+		background-image: none;
+		float: left;
+		left: 45%;
+	}
+	.navbar-default .navbar-toggle {
+		border: none;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background: transparent;
+	}
+	.nav-nifty .dropdown-menu > li > a {
+		color: #ffffff !important;
+	}
+	.nifty-button-container ul {
+		text-align: left;
+	}
+	.call-to-action h2 {
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 800;
+		margin: 0 0 13px;
+	}
+	.call-to-action .call-btn-1 {
+		float: left;
+	}
+}

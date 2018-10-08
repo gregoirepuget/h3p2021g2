@@ -1,0 +1,22 @@
+#customize-controls .control-section-specia-upsale .accordion-section-title:hover,
+#customize-controls .control-section-specia-upsale .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-specia-upsale .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+	
+	color: #fff;
+    border-color: #c9302c;
+    background: #c9302c;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+	
+}
+
+.rtl .control-section-specia-upsale .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
