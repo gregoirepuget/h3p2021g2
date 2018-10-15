@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-xl-8 col-lg-12">
-        <p class="mb-5"><img src="images/img_bg_2.jpg" alt="Free Bootstrap 4 Template by uicookies.com" class="img-fluid"></p>
+        <p class="mb-5"><?php echo get_the_post_thumbnail( get_the_ID(), 'page-thumb' , array("class"=>"img-fluid")); ?></p>
         <div class="row">
           <div class="col-xl-8 col-lg-12 mx-auto">
 <?php
