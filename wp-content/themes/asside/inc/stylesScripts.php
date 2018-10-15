@@ -18,10 +18,10 @@ wp_enqueue_style( 'owl.carousel' );
 wp_register_style( 'owl.theme.default', CSS_URL . '/owl.theme.default.min.css' );
 wp_enqueue_style( 'owl.theme.default' );
 
-wp_register_style( 'icomoon', CSS_URL . '/icomoon.min.css' );
+wp_register_style( 'icomoon', CSS_URL . '/icomoon.css' );
 wp_enqueue_style( 'icomoon' );
 
-wp_register_style( 'animate', CSS_URL . '/animate.min.css' );
+wp_register_style( 'animate', CSS_URL . '/animate.css' );
 wp_enqueue_style( 'animate' );
 
 wp_register_style( 'style', CSS_URL . '/style.css' );
