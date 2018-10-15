@@ -41,4 +41,13 @@ $labels = array(
 
   register_post_type($post_type, $args );
 
+  $taxonomy = "profil";
+  $object_type = array("team");
+  $args = array(
+          'label' => __( 'Profil' ),
+          'rewrite' => array( 'slug' => 'profil' ),
+          'hierarchical' => true,
+  );
+  register_taxonomy( $taxonomy, $object_type, $args );
+
 }
