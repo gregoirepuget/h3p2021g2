@@ -1,4 +1,4 @@
-$(function(){
+jQuery(document).ready(function($){
 
 	'use strict';
 
@@ -45,7 +45,7 @@ $(function(){
 	      main.removeClass('mobile-open');
 	    }
     });
-    
+
 	};
 	toggleMenu();
 
@@ -54,7 +54,7 @@ $(function(){
 		jQuery('.probootstrap-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !jQuery(this.element).hasClass('probootstrap-animated') ) {
-				
+
 				i++;
 
 				jQuery(this.element).addClass('item-animate');
@@ -76,9 +76,9 @@ $(function(){
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -87,7 +87,7 @@ $(function(){
 
 	if ($('.probootstrap-main').length > 0 ) {
 		$('.probootstrap-main').imagesLoaded( {
-		  
+
 		  },
 		  function() {
 		  	if ($('.card').length > 0 ) {
