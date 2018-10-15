@@ -41,4 +41,14 @@ $labels = array(
 
   register_post_type($post_type, $args );
 
+
+  $taxonomy = "theme";
+  $object_type = array("portfolio");
+  $args = array(
+          'label' => __( 'Thématique' ),
+          'rewrite' => array( 'slug' => 'theme' ),
+          'hierarchical' => true,
+  );
+  register_taxonomy( $taxonomy, $object_type, $args );
+
 }
