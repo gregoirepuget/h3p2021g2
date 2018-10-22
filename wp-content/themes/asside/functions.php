@@ -13,3 +13,4 @@ define( 'ADMIN_IMAGES_URL' ,    IMAGES_URL .   '/admin'             );
 foreach ( glob( THEME_PATH . "/inc/*.php" ) as $file ) {
     include_once $file;
 }
+// commentaire de test 
