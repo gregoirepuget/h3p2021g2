@@ -29,7 +29,7 @@ wp_enqueue_style( 'style' );
 
 
 wp_register_script('jquery-3.2.1.slim', JS_URL . '/jquery-3.2.1.slim.min.js', array('jquery'),'1.0', true);
-wp_enqueue_script('jquery-3.2.1.slim');
+//wp_enqueue_script('jquery-3.2.1.slim');
 
 wp_register_script('popper', JS_URL . '/popper.min.js', array('jquery'),'1.0', true);
 wp_enqueue_script('popper');
@@ -48,6 +48,11 @@ wp_enqueue_script('imagesloaded.pkgd');
 
 wp_register_script('main', JS_URL . '/main.js', array('jquery'),'1.0', true);
 wp_enqueue_script('main');
+
+wp_register_script('ajaxjs',JS_URL . '/ajaxjs.js', array('jquery'),'1.0', true);
+wp_localize_script('ajaxjs', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
+wp_enqueue_script('ajaxjs');
+
 
 }
 
